@@ -1,0 +1,44 @@
+.content-video {
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 3px;
+}
+
+.video-row {
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.video-row-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.video-row-title span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.video-content {
+  margin-top: 10px;
+}
+
+.completed-icon {
+  font-weight: bold;
+  color: green;
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+}

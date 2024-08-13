@@ -1,0 +1,74 @@
+/* ShowData.css */
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 3rem;
+}
+
+.card-map {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* แสดง 4 การ์ดในแต่ละแถว */
+  gap: 16px;
+  width: 100%;
+  max-width: 1600px; /* เพิ่มความกว้างสูงสุดของ container */
+}
+
+.con-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px; /* เพิ่มความสูงของการ์ด */
+  max-width: 400px; /* เพิ่มความกว้างสูงสุดของการ์ด */
+  margin: 16px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.con-card:hover {
+  box-shadow: -7px 15px 15px rgba(169, 168, 168, 0.5);
+}
+
+img {
+  height: 210px; /* เพิ่มความสูงของภาพ */
+  /* object-fit: cover; */
+}
+
+.con-card-content {
+  flex-grow: 1; /* ให้เนื้อหาเติบโตเพื่อเติมพื้นที่ที่ว่างอยู่ */
+}
+
+.con-button-homepage {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 1200px) {
+  .card-map {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* ปรับสำหรับหน้าจอที่กว้างน้อยกว่า 1200px */
+  }
+}
+
+@media (max-width: 900px) {
+  .card-map {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* ปรับสำหรับหน้าจอที่กว้างน้อยกว่า 900px */
+  }
+}
+
+@media (max-width: 600px) {
+  .card-map {
+    grid-template-columns: repeat(
+      1,
+      1fr
+    ); /* ปรับสำหรับหน้าจอที่กว้างน้อยกว่า 600px */
+  }
+}

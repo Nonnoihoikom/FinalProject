@@ -1,0 +1,33 @@
+.course-content-MachineLearning {
+  background: url("./assets/Background/BG_Matchine2.jpg") no-repeat center
+    center;
+  background-size: 100% 100%; /* ปรับขนาดรูปภาพให้พอดีกับคอนเทนต์ */
+  color: #ffc300; /* เปลี่ยนสีตัวอักษรเป็นสีขาวเพื่อให้อ่านง่ายขึ้น */
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative; /* จำเป็นสำหรับการใช้งาน before/after pseudo-element */
+}
+
+.course-content-MachineLearning:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.2
+  ); /* สร้างเลเยอร์ทึบเพื่อให้อ่านตัวอักษรได้ชัดเจน */
+  border-radius: 8px;
+}
+
+.course-content-MachineLearning > * {
+  position: relative; /* ทำให้ตัวอักษรอยู่เหนือเลเยอร์ทึบ */
+  z-index: 1;
+}

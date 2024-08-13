@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: #7a6561;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000; /* ป้องกัน footer จากการซ้อนทับ */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.social-icon {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}

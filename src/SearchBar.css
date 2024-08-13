@@ -1,0 +1,127 @@
+.search-bar-container {
+  margin-top: 4rem;
+  margin-left: 10.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 82%;
+}
+
+.search-bar-filter {
+  display: flex;
+  width: 100%;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  margin-right: -1px;
+}
+
+.Button-Filter {
+  height: 100%;
+  border-radius: 0 4px 4px 0;
+}
+
+.filter-bar-container {
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  max-height: 0;
+}
+
+.filter-bar-container.visible {
+  max-height: 500px; /* ปรับตามความเหมาะสม */
+  transition: max-height 0.3s ease-in;
+}
+
+@media (max-width: 768px) {
+  .search-bar-container {
+    margin-left: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .search-bar-filter {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .search-bar {
+    width: 80%;
+    margin-right: 0;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .Button-Filter {
+    width: 20%;
+    border-radius: 0 4px 4px 0;
+  }
+}
+
+.search-bar-container {
+  margin-top: 4rem;
+  margin-left: 10.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 82%;
+}
+
+.search-bar-filter {
+  display: flex;
+  width: 100%;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  margin-right: -1px;
+}
+
+.Button-Filter {
+  height: 100%;
+  border-radius: 0 4px 4px 0;
+}
+
+.filter-bar-container {
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  max-height: 0;
+}
+
+.filter-bar-container.visible {
+  max-height: 500px; /* ปรับตามความเหมาะสม */
+  transition: max-height 0.3s ease-in;
+}
+
+@media (max-width: 1163px) {
+  .search-bar-container {
+    margin-left: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .search-bar-filter {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .search-bar {
+    width: 80%;
+    margin-right: 0;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .Button-Filter {
+    width: 20%;
+    border-radius: 0 4px 4px 0;
+  }
+}

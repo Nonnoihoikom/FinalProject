@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(56, 55, 55);
+  font-family: "Montserrat", sans-serif;
+}
+
+.dark-theme {
+  background-color: rgb(56, 55, 55);
+}
+
+.light-theme {
+  background-color: rgb(247, 244, 244);
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

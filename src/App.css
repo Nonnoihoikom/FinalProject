@@ -1,0 +1,13 @@
+.appbar {
+  background-color: rgb(255, 204, 0) !important;
+  border-radius: 5px;
+}
+
+.Con-Appbar {
+  color: black;
+}
+
+.con-menu {
+  flex-grow: 1;
+  margin-left: 8rem;
+}
